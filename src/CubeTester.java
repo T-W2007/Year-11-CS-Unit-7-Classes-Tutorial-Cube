@@ -74,4 +74,11 @@ public class CubeTester {
         assertTrue(surfaceArea == 294, "Ensure that your getSurfaceArea method has been implemented correctly!");
     }
 
+    public static void main(String[] args) {
+        Cube cube = new Cube();
+        cube.setSide(1);
+        int volume = cube.getVolume();
+        System.out.println(cube.toString());
+    }
+
 }
