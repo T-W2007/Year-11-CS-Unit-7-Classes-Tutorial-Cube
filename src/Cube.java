@@ -24,11 +24,11 @@ public class Cube {
     }
 
     public int getSurfaceArea() {
-        return 6 * (int) Math.pow(side, 2);
+        return 6 *side*side;
     }
 
     public int getVolume() {
-        return (int) Math.pow(side, 3);
+        return side*side*side;
     }
 
     @Override
